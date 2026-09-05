@@ -128,3 +128,6 @@ html{scroll-padding-top:70px}.publicPortfolio{background:var(--background);color
 /* Preserve project-banner aspect ratios without cropping or stretching. */
 .publicPortfolio .cardImage{background:#07100c}.publicPortfolio .projectCard .cardImage img{object-fit:contain;padding:10px}
 @media(max-width:760px){.publicPortfolio .projectCard .cardImage img{padding:6px}}
+
+.contactEmailAction{align-self:center;display:flex;justify-content:center}.contactEmailAction .button{min-width:200px;justify-content:center}.contactEmailAction .button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+@media(max-width:760px){.contactEmailAction{justify-content:flex-start}}
